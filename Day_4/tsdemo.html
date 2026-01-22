@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Three Buttons</title>
+<style>
+  .btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .open-btn {
+    background-color: #4CAF50; /* Green */
+  }
+
+  .google-btn {
+    background-color: #4285F4; /* Blue */
+  }
+
+  .click-btn {
+    background-color: #FF5722; /* Orange */
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+</style>
+</head>
+<body>
+
+<button class="btn open-btn" onclick="alert('Open Me clicked!')">
+  Open Me
+</button>
+
+<button class="btn google-btn" onclick="window.location.href='https://www.google.com'">
+  Go to Google
+</button>
+
+<button class="btn click-btn" onclick="alert('Button clicked!')">
+  Click Here
+</button>
+
+</body>
+</html>
